@@ -1,2 +1,23 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NENsd3bP)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20399481&assignment_repo_type=AssignmentRepo)
+# System Monitoring Script (sysmon.sh)
+
+## 📌 Overview
+This repository contains a simple **System Monitoring Shell Script** (`sysmon.sh`) that collects and logs key system metrics every **5 minutes**.  
+The log file is stored in `/var/log/sysmon.log`.
+
+## 🔧 Metrics Monitored
+- **CPU** → collected using `top`
+- **Memory** → collected using `free -h`
+- **Disk** → collected using `df -h /`
+- **Network Usage** → collected from /proc/net/dev
+
+## 🚀 How It Works
+The script runs in an infinite loop:
+1. Collects the above system metrics.
+2. Appends them to `/var/log/sysmon.log`.
+3. Sleeps for 5 minutes before repeating.
+
+## ▶️ Running the Script
+1. Make the script executable:
+   ```bash
+   chmod +x sysmon.sh
+   ./sysmon.sh

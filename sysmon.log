@@ -1,0 +1,32 @@
+----
+DATE: Tue Sep  9 23:35:02 GMT 2025
+
+[CPU USAGE]
+%Cpu(s):  0.7 us,  0.0 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+[MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       643Mi       6.2Gi       3.3Mi       911Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+[DISK USAGE]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc       1007G  1.8G  954G   1% /
+
+NETWORK (eth0):
+----
+DATE: Tue Sep  9 23:40:02 GMT 2025
+
+[CPU USAGE]
+%Cpu(s):  1.4 us,  0.0 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+[MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       702Mi       6.1Gi       3.3Mi       912Mi       6.8Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+[DISK USAGE]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc       1007G  1.8G  954G   1% /
+
+NETWORK (eth0):
